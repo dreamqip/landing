@@ -7,11 +7,11 @@
         @apply font-poppins overflow-x-hidden;
     }
 
-    html, body, #__next {
+    html, body, [data-nextjs-scroll-focus-boundary] {
         @apply h-full;
     }
 
-    body, #__next {
+    body, [data-nextjs-scroll-focus-boundary] {
         @apply bg-main bg-no-repeat bg-cover bg-fixed;
     }
 }
@@ -23,7 +23,7 @@
     }
 
     .primary-button {
-        @apply px-4 py-2 hover:drop-shadow-lg transition-all bg-button rounded-[16px] text-white;
+        @apply px-4 py-2 hover:opacity-80 transition-opacity bg-button rounded-[16px] text-white;
     }
 
     .full-width {

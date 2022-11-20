@@ -16,7 +16,7 @@ const Presentation: FC = () => {
   }
 
   return (
-    <section className="flex justify-center items-center pb-20">
+    <section className="flex justify-center items-center relative pb-20">
       <div ref={containerRef} className="overflow-hidden rounded-2xl max-w-4xl relative w-full pt-[56.25%] h-[600px]'">
         {lockRef.current && (
           <iframe
@@ -28,6 +28,7 @@ const Presentation: FC = () => {
           />
         )}
       </div>
+      <div className="blur-[120px] opacity-20 bg-[#BA50DF] absolute top-1/3 right-0 z-[1] w-[400px] h-[400px]"></div>
     </section>
   );
 };
