@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header: FC = () => {
   return (
-    <header className="p-6 mx-auto max-w-[1280px] flex justify-between items-center">
+    <header className="p-6 mx-auto max-w-[1280px] w-full flex justify-between items-center">
       <div className="flex items-center gap-x-2">
         <Image height={64} width={64} src="/logo.svg" alt="logotype" priority />
         <span className="uppercase font-bold text-white text-[28px]">
@@ -12,7 +12,7 @@ const Header: FC = () => {
       </div>
       <nav className="flex">
         <ul className="flex items-center gap-x-4 mr-8">
-          <li>
+          <li className='hover:opacity-80 transition'>
             <a
               href="components/Header#"
               className="text-white text-[16px] leading-[22px]"
@@ -20,7 +20,7 @@ const Header: FC = () => {
               About
             </a>
           </li>
-          <li>
+          <li className='hover:opacity-80 transition'>
             <a
               href="components/Header#"
               className="text-white text-[16px] leading-[22px]"
@@ -28,7 +28,7 @@ const Header: FC = () => {
               Media
             </a>
           </li>
-          <li>
+          <li className='hover:opacity-80 transition'>
             <a
               href="components/Header#"
               className="text-white text-[16px] leading-[22px]"
@@ -39,7 +39,7 @@ const Header: FC = () => {
         </ul>
         <a
           href="/path/to/app"
-          className="px-4 py-2 bg-button rounded-[16px] text-white"
+          className="primary-button"
           download="treadle"
         >
           Download

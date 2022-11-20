@@ -21,9 +21,9 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>
+      <body className='flex flex-col'>
         <Header />
-        <main className="max-w-[1280px] mx-auto px-4">{children}</main>
+        <main className="primary-container flex-1 flex">{children}</main>
         <Footer />
       </body>
     </html>
