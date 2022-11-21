@@ -36,7 +36,7 @@ export const team = [
   },
   {
     name: "Anna Isaienko",
-    role: "Graphic & Motion designer",
+    role: "Graphic & Motion Designer",
     image: "/team/anna.jpg",
   }
 ];
