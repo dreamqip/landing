@@ -1,23 +1,23 @@
 export const team = [
   {
-    name: "Nataliia Chuchupak",
-    role: "Lead App Developer",
-    image: "/team/nataliia.png",
-  },
-  {
     name: "Denys Kravchuk",
     role: "CEO & HR Director",
     image: "/team/denys.jpg",
   },
   {
-    name: "Bulat Khaertdinov",
-    role: "SHO & Lead Machine Learning Engineer",
-    image: "/team/bulat.jpg",
-  },
-  {
     name: "Oleh Malovanyi",
     role: "CTO & CVO, Smart Contract Engineer",
     image: "/team/oleh.jpg",
+  },
+  {
+    name: "Nataliia Chuchupak",
+    role: "Lead App Developer",
+    image: "/team/nataliia.png",
+  },
+  {
+    name: "Bulat Khaertdinov",
+    role: "SHO & Lead Machine Learning Engineer",
+    image: "/team/bulat.jpg",
   },
   {
     name: "Volodymyr Sheremeta",
