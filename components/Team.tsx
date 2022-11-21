@@ -7,9 +7,9 @@ const Team: FC = () => {
     <section className="py-[100px] bg-team relative full-width z-10 text-white" id="team">
       <div className="primary-container">
         <h2 className="uppercase font-bold text-center text-[34px] leading-[22px] mb-12">Team</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center lg:grid-cols-none lg:flex lg:flex-wrap lg:justify-center lg:items-center xl:grid xl:grid-cols-4 gap-y-10 sm:gap-x-4 lg:gap-x-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center lg:grid-cols-none lg:flex lg:flex-wrap lg:justify-center lg:items-start xl:grid xl:grid-cols-4 gap-y-10 sm:gap-x-4 lg:gap-x-8">
           {team.map((member, i) => (
-            <div key={i} className="flex max-w-[260px] lg:flex-[0 0 calc(33.33% - 32px)] flex-col items-center justify-center">
+            <div key={i} className="flex max-w-[260px] lg:flex-[0 0 calc(33.33% - 32px)] flex-col items-start justify-center">
               <Image
                 src={member.image}
                 alt={member.name}
