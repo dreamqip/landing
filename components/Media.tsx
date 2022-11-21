@@ -13,7 +13,8 @@ const Media: FC = () => {
           </h3>
           <p className="mb-8">
             You can download the app to your phone via the button below and start your first journey with Treadle
-            Lifestyle App. Create a NEAR Protocol account, log in, mint your first NFT and ride! Let&apos;s change the world
+            Lifestyle App. Create a NEAR Protocol account, log in, mint your first NFT and ride! Let&apos;s change the
+            world
             together!
           </p>
           <a
@@ -32,8 +33,8 @@ const Media: FC = () => {
             className="font-bold text-[22px] leading-[28px] md:text-[30px] md:leading-[35px]">Github</span>
           </h3>
           <p>
-            We created a comprehensive Github organization to structure our repositories and manage access to them.
-            Follow the link below to see the source code of each of our project&apos;s modules!
+            We created a comprehensive Github organization to structure our repositories and manage access. Follow the
+            link below to see the source code of each of our project&apos;s modules!
           </p>
           <a
             href="https://github.com/treadle"
@@ -67,8 +68,8 @@ const Media: FC = () => {
           </h3>
           <p>
             In our presentation of the Treadle Lifestyle App, we explain the idea behind our project, as well as show
-            its functionality and features. We pointed out all the advantages and disadvantages of our current technical
-            and theoretical achievements and what we will do in order to improve and extend them.
+            its functionality and features. Finally, we pointed out all the advantages and disadvantages of our current
+            technical and theoretical achievements and what we will do to improve and extend them.
           </p>
           <a
             href="https://www.youtube.com/watch?v=X2XkiWXOB8E&ab_channel=TreadleLifestyleApp"

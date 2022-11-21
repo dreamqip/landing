@@ -11,10 +11,11 @@ const Hero: FC = () => {
           className="font-bold text-[36px] leading-[44px] text-center xl:text-left uppercase text-white mb-4 xl:text-[76px] xl:leading-[72px]">
           Racing is life; the rest are just details.
         </h1>
-        <p className="text-center xl:text-left text-[22px] leading-[26px] opacity-90 text-white">Web3 lifestyle
-          application that encourages people to use bikes in their daily lives with a corresponding incentive. It is a
-          complete environment within which people of different genders, ages, religions, and life views can work
-          together toward achieving their goals and making life on our planet better. </p>
+        <p className="text-center xl:text-left text-[22px] leading-[26px] opacity-90 text-white">
+          Web3 lifestyle application encourages people to use bikes in their daily lives with a corresponding incentive.
+          It is a complete environment within which people of different genders, ages, religions, and life views can
+          work together toward achieving their goals and making life on our planet better.
+        </p>
       </div>
       <div className="xl:relative">
         <Image
