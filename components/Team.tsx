@@ -1,25 +1,24 @@
 import type { FC } from "react";
 import Image from "next/image";
-
-const amount = 8;
+import { team } from "../data/team";
 
 const Team: FC = () => {
   return (
-    <section className="py-[100px] bg-team relative full-width z-10 text-white">
+    <section className="py-[100px] bg-team relative full-width z-10 text-white" id="team">
       <div className="primary-container">
         <h2 className="uppercase font-bold text-center text-[34px] leading-[22px] mb-12">Team</h2>
-        <div className="grid grid-cols-4 gap-8">
-          {[...Array(amount)].map((_, i) => (
-            <div key={i} className="flex flex-col items-center justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center lg:grid-cols-none lg:flex lg:flex-wrap lg:justify-center lg:items-center xl:grid xl:grid-cols-4 gap-y-10 sm:gap-x-4 lg:gap-x-8">
+          {team.map((member, i) => (
+            <div key={i} className="flex max-w-[260px] lg:flex-[0 0 calc(33.33% - 32px)] flex-col items-center justify-center">
               <Image
-                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                alt='member'
+                src={member.image}
+                alt={member.name}
                 width={260}
                 height={260}
-                className="rounded-full object-cover aspect-square mb-4"
+                className="rounded-full object-cover object-top aspect-square mb-4"
               />
-              <h3 className="text-[22px] font-bold mb-2">John Doe</h3>
-              <p>CEO</p>
+              <h3 className="text-[22px] font-bold mb-2">{member.name}</h3>
+              <p className="text-center">{member.role}</p>
             </div>
           ))}
         </div>

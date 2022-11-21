@@ -4,7 +4,7 @@
 
 @layer base {
     html, body {
-        @apply font-poppins overflow-x-hidden;
+        @apply font-poppins overflow-x-hidden scroll-smooth;
     }
 
     html, body, [data-nextjs-scroll-focus-boundary] {
@@ -31,10 +31,14 @@
     }
 
     .grid-container {
-        @apply grid grid-cols-4 grid-rows-2 gap-[30px];
+        @apply grid gap-[30px];
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(0, 1fr));
         grid-template-areas:
-            "download github github github"
-            "download twitter presentation presentation";
+            "download"
+            "github"
+            "twitter"
+            "presentation";
     }
 
     .download {
@@ -52,4 +56,37 @@
     .presentation {
         grid-area: presentation;
     }
+
+    @media screen and (min-width: 640px) {
+        .grid-container {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            grid-template-rows: repeat(3, minmax(200px, 1fr));
+            grid-template-areas:
+                "download download"
+                "github twitter"
+                "presentation presentation";
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .grid-container {
+            grid-template-columns: 1fr repeat(3, minmax(0, 0.7fr));
+            grid-template-rows: 0.5fr 1fr;
+            grid-template-areas:
+            "download github github github"
+            "download twitter presentation presentation";
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .grid-container {
+            grid-template-columns: 380px repeat(3, minmax(0, 1fr));
+            grid-template-rows: 0.5fr 1fr;
+            grid-template-areas:
+            "download github github github"
+            "download twitter presentation presentation";
+        }
+    }
+
+
 }

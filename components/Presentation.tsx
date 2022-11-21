@@ -16,11 +16,12 @@ const Presentation: FC = () => {
   }
 
   return (
-    <section className="flex justify-center items-center relative pb-20">
+    <section className="flex flex-col justify-center items-center relative pb-20" id="about">
+      <h2 className="uppercase text-center text-white text-[36px] leading-[44px] font-bold mb-8">Presentation</h2>
       <div ref={containerRef} className="overflow-hidden rounded-2xl max-w-4xl relative w-full pt-[56.25%] h-[600px]'">
         {lockRef.current && (
           <iframe
-            src="https://www.youtube.com/embed/9bZkp7q19f0"
+            src="https://www.youtube.com/embed/X2XkiWXOB8E"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
