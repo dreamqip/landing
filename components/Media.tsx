@@ -72,7 +72,7 @@ const Media: FC = () => {
             technical and theoretical achievements and what we will do to improve and extend them.
           </p>
           <a
-            href="https://www.youtube.com/watch?v=X2XkiWXOB8E&ab_channel=TreadleLifestyleApp"
+            href="https://www.youtube.com/watch?v=m4mAHkytqys"
             target="_blank"
             className="primary-button mt-auto"
             rel="noreferrer">

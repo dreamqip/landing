@@ -1,7 +1,7 @@
 export const team = [
   {
     name: "Denys Kravchuk",
-    role: "CEO & HR Director",
+    role: "CEO & CHRO",
     image: "/team/denys.jpg",
   },
   {
