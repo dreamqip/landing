@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Poppins } from "@next/font/google";
+import { Poppins } from "next/font/google";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -23,7 +23,7 @@ export default function RootLayout({
       <head />
       <body className='flex flex-col'>
         <Header />
-        <main className="primary-container flex-1 flex">{children}</main>
+        <main className="primary-container flex-1 flex flex-col">{children}</main>
         <Footer />
       </body>
     </html>

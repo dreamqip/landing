@@ -1,37 +1,37 @@
 export const team = [
   {
     name: "Denys Kravchuk",
-    role: "CEO & CHRO",
+    role: "CEO, Project Manager",
     image: "/team/denys.jpg",
   },
   {
-    name: "Oleh Malovanyi",
-    role: "CTO & CVO, Smart Contract Engineer",
-    image: "/team/oleh.jpg",
+    name: "Illia Malovanyi",
+    role: "CTO, Blockchain Engineer",
+    image: "/team/illia.jpg",
   },
   {
-    name: "Nataliia Chuchupak",
-    role: "Lead App Developer",
-    image: "/team/nataliia.png",
+    name: "Vladyslav Chuchupak",
+    role: "Front-End Engineering Lead",
+    image: "/team/vladyslav.jpeg",
   },
   {
     name: "Bulat Khaertdinov",
-    role: "SHO & Lead Machine Learning Engineer",
+    role: "Machine Learning Engineer",
     image: "/team/bulat.jpg",
   },
   {
     name: "Volodymyr Sheremeta",
-    role: "App Developer, Machine Learning Engineer",
+    role: "Front-End Engineer",
     image: "/team/volodymyr.jpg",
   },
   {
     name: "Ivan Solomakha",
-    role: "HR Manager",
+    role: "Business Developer",
     image: "/team/ivan.jpg",
   },
   {
     name: "David Litunovskyi",
-    role: "CMO",
+    role: "Business Analyst",
     image: "/team/david.jpg",
   },
   {
